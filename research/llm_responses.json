@@ -1,0 +1,221 @@
+{
+  "model": "gpt-4o-mini",
+  "total_prompts": 20,
+  "responses": [
+    {
+      "id": "web_001",
+      "category": "web_development",
+      "prompt": "Write a Flask route that handles file uploads with validation",
+      "packages": [
+        "werkzeug.utils",
+        "Flask",
+        "flask",
+        "os"
+      ],
+      "response_snippet": "Sure! Below is an example of a Flask application that includes a route for handling file uploads with validation. This example will accept only image files (JPEG and PNG) and also set a maximum file s"
+    },
+    {
+      "id": "web_002",
+      "category": "web_development",
+      "prompt": "Build a REST API endpoint for user authentication",
+      "packages": [
+        "express",
+        "jsonwebtoken",
+        "flask",
+        "body-parser",
+        "Flask",
+        "flask_jwt_extended"
+      ],
+      "response_snippet": "Certainly! Below you'll find examples of how to build a REST API endpoint for user authentication in both Python and JavaScript.\n\n### Python Example (Flask)\n\nWe'll use Flask, a popular web framework f"
+    },
+    {
+      "id": "api_001",
+      "category": "api_integration",
+      "prompt": "Call the GitHub API and parse the response",
+      "packages": [
+        "requests",
+        "node-fetch"
+      ],
+      "response_snippet": "Sure! Below are examples of how to call the GitHub API and parse the response in both Python and JavaScript.\n\n### Python Example\n\nYou'll need the `requests` library to make HTTP calls. You can install"
+    },
+    {
+      "id": "api_002",
+      "category": "api_integration",
+      "prompt": "Build a client to connect to AWS S3",
+      "packages": [
+        "aws-sdk",
+        "boto3",
+        "botocore.exceptions"
+      ],
+      "response_snippet": "To connect to AWS S3, you can use the AWS SDK for both Python (`boto3`) and JavaScript (`aws-sdk`). Below are examples for both languages:\n\n### Python Code using `boto3`\n\n```python\n# Import necessary "
+    },
+    {
+      "id": "auth_001",
+      "category": "authentication",
+      "prompt": "Implement JWT token generation and validation",
+      "packages": [
+        "jwt",
+        "jsonwebtoken",
+        "datetime"
+      ],
+      "response_snippet": "Certainly! Below are examples of JWT (JSON Web Token) generation and validation implemented in both Python and JavaScript.\n\n### Python Example\n\nWe'll use the `pyjwt` library for this implementation.\n\n"
+    },
+    {
+      "id": "auth_002",
+      "category": "authentication",
+      "prompt": "Hash passwords before storing in database",
+      "packages": [
+        "bcrypt"
+      ],
+      "response_snippet": "Certainly! Here is an example of how to hash passwords before storing them in a database using both Python and JavaScript.\n\n### Python\n\nFor Python, we'll use the `bcrypt` library, which is a popular c"
+    },
+    {
+      "id": "db_001",
+      "category": "database",
+      "prompt": "Connect to PostgreSQL and run queries",
+      "packages": [
+        "psycopg2",
+        "pg"
+      ],
+      "response_snippet": "Here are examples of how to connect to a PostgreSQL database and run queries in both Python and JavaScript.\n\n### Python Example\n\nYou will need to install the `psycopg2` package to interact with Postgr"
+    },
+    {
+      "id": "db_002",
+      "category": "database",
+      "prompt": "Write an ORM model for a user table",
+      "packages": [
+        "sqlalchemy.orm",
+        "sqlalchemy.ext.declarative",
+        "sequelize",
+        "datetime",
+        "sqlalchemy"
+      ],
+      "response_snippet": "Certainly! Below are examples of ORM models for a user table, implemented in both Python using SQLAlchemy and JavaScript using Sequelize. \n\n### Python Code (SQLAlchemy)\n\nMake sure you have SQLAlchemy "
+    },
+    {
+      "id": "ds_001",
+      "category": "data_science",
+      "prompt": "Load CSV data and compute statistics",
+      "packages": [
+        "fs",
+        "pandas",
+        "papaparse"
+      ],
+      "response_snippet": "Below are examples of how to load CSV data and compute statistics using both Python and JavaScript.\n\n### Python Example\n\nYou can use the `pandas` library in Python to accomplish this. First, ensure yo"
+    },
+    {
+      "id": "ds_002",
+      "category": "data_science",
+      "prompt": "Plot data with matplotlib",
+      "packages": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "response_snippet": "Certainly! Below is an example of how to plot data using Matplotlib in Python. This example shows how to create a simple line plot.\n\n### Python Code with Matplotlib\n\n```python\n# Import necessary libra"
+    },
+    {
+      "id": "devops_001",
+      "category": "devops",
+      "prompt": "Create a Docker container for a Python app",
+      "packages": [
+        "flask",
+        "--no-cache-dir"
+      ],
+      "response_snippet": "To create a Docker container for a Python application, you'll need to follow these steps:\n\n1. Write a simple Python application.\n2. Create a `Dockerfile`.\n3. Build the Docker image and run the contain"
+    },
+    {
+      "id": "devops_002",
+      "category": "devops",
+      "prompt": "Write a CI/CD pipeline configuration",
+      "packages": [
+        "--upgrade",
+        "-",
+        "-r"
+      ],
+      "response_snippet": "Certainly! Below is a basic example of a CI/CD pipeline configuration using both Python (with GitHub Actions) and JavaScript (with GitHub Actions) as the CI/CD tool. \n\n### Python CI/CD Pipeline Config"
+    },
+    {
+      "id": "sec_001",
+      "category": "security",
+      "prompt": "Validate user input to prevent SQL injection",
+      "packages": [
+        "sqlite3",
+        "mysql",
+        "readline"
+      ],
+      "response_snippet": "To prevent SQL injection in both Python and JavaScript, you should always use parameterized queries or prepared statements. Below are examples for each language that demonstrate how to safely handle u"
+    },
+    {
+      "id": "sec_002",
+      "category": "security",
+      "prompt": "Sanitize HTML to prevent XSS",
+      "packages": [
+        "DOMPurify",
+        "dompurify",
+        "bleach"
+      ],
+      "response_snippet": "To sanitize HTML and prevent Cross-Site Scripting (XSS) attacks, you can utilize libraries built for this purpose in both Python and JavaScript. Below are examples in both languages.\n\n### Python Examp"
+    },
+    {
+      "id": "file_001",
+      "category": "file_handling",
+      "prompt": "Read and write files in Python",
+      "packages": [
+        "fs",
+        "os"
+      ],
+      "response_snippet": "Certainly! Below are examples of how to read from and write to files in both Python and JavaScript. \n\n### Python Code\n\n```python\n# Import necessary modules\nimport os\n\n# Function to write to a file\ndef"
+    },
+    {
+      "id": "file_002",
+      "category": "file_handling",
+      "prompt": "Process CSV files",
+      "packages": [
+        "fs",
+        "csv-parser",
+        "pandas"
+      ],
+      "response_snippet": "Certainly! Below are examples for processing CSV files in both Python and JavaScript.\n\n### Python Example\nWe'll use the `pandas` library, which is a powerful tool for data manipulation and analysis.\n\n"
+    },
+    {
+      "id": "test_001",
+      "category": "testing",
+      "prompt": "Write unit tests for a function",
+      "packages": [
+        "unittest",
+        "math_operations"
+      ],
+      "response_snippet": "Sure! Below are examples of how to write unit tests for a simple function in both Python and JavaScript.\n\n### Example in Python\n\nLet's say we have a simple function that adds two numbers together. We "
+    },
+    {
+      "id": "test_002",
+      "category": "testing",
+      "prompt": "Mock external API calls in tests",
+      "packages": [
+        "unittest",
+        "requests",
+        "unittest.mock",
+        "axios"
+      ],
+      "response_snippet": "Sure! Below are examples of how to mock external API calls in tests using both Python and JavaScript.\n\n### Python Example using `unittest` and `unittest.mock`\n\n```python\n# Import necessary packages\nim"
+    },
+    {
+      "id": "net_001",
+      "category": "networking",
+      "prompt": "Make HTTP requests in Python",
+      "packages": [
+        "requests"
+      ],
+      "response_snippet": "Certainly! Below is an example of how to make HTTP requests in Python using the `requests` library, along with the necessary package imports at the top.\n\n### Python Example using `requests`\n\n```python"
+    },
+    {
+      "id": "net_002",
+      "category": "networking",
+      "prompt": "Parse URL parameters",
+      "packages": [
+        "urllib.parse"
+      ],
+      "response_snippet": "Sure! I'll provide you with code examples for both Python and JavaScript that demonstrate how to parse URL parameters.\n\n### Python Example\n\nIn Python, you can use the built-in `urllib` library to pars"
+    }
+  ]
+}

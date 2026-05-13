@@ -1,0 +1,80 @@
+{
+  "web_development": [
+    {"id": "web_001", "prompt": "Write a Flask route that handles file uploads with validation"},
+    {"id": "web_002", "prompt": "Build a REST API endpoint for user authentication"},
+    {"id": "web_003", "prompt": "Create a middleware to log HTTP requests"},
+    {"id": "web_004", "prompt": "How do I add CORS to my Express server?"},
+    {"id": "web_005", "prompt": "Build a webhook receiver for Stripe payments"},
+    {"id": "web_006", "prompt": "Create a login form with password hashing"},
+    {"id": "web_007", "prompt": "Set up session management in Django"},
+    {"id": "web_008", "prompt": "How do I cache API responses in FastAPI?"}
+  ],
+  "api_integration": [
+    {"id": "api_001", "prompt": "Call the GitHub API and parse the response"},
+    {"id": "api_002", "prompt": "Build a client to connect to AWS S3"},
+    {"id": "api_003", "prompt": "Make authenticated requests to a REST API"},
+    {"id": "api_004", "prompt": "Parse JSON responses from an external API"},
+    {"id": "api_005", "prompt": "Handle OAuth2 authentication"},
+    {"id": "api_006", "prompt": "Retry logic for failed API calls"},
+    {"id": "api_007", "prompt": "Rate limiting for API requests"}
+  ],
+  "authentication": [
+    {"id": "auth_001", "prompt": "Implement JWT token generation and validation"},
+    {"id": "auth_002", "prompt": "Hash passwords before storing in database"},
+    {"id": "auth_003", "prompt": "Build a two-factor authentication system"},
+    {"id": "auth_004", "prompt": "Create a password reset flow"},
+    {"id": "auth_005", "prompt": "Implement session-based authentication"},
+    {"id": "auth_006", "prompt": "How do I validate email addresses?"}
+  ],
+  "database": [
+    {"id": "db_001", "prompt": "Connect to PostgreSQL and run queries"},
+    {"id": "db_002", "prompt": "Write an ORM model for a user table"},
+    {"id": "db_003", "prompt": "Implement database migrations"},
+    {"id": "db_004", "prompt": "Handle transactions and rollbacks"},
+    {"id": "db_005", "prompt": "Create database indexes for performance"},
+    {"id": "db_006", "prompt": "Query MongoDB with filtering"}
+  ],
+  "data_science": [
+    {"id": "ds_001", "prompt": "Load CSV data and compute statistics"},
+    {"id": "ds_002", "prompt": "Plot data with matplotlib"},
+    {"id": "ds_003", "prompt": "Train a classification model"},
+    {"id": "ds_004", "prompt": "Normalize feature data for ML"},
+    {"id": "ds_005", "prompt": "Handle missing values in datasets"},
+    {"id": "ds_006", "prompt": "Cross-validation for model evaluation"}
+  ],
+  "devops": [
+    {"id": "devops_001", "prompt": "Create a Docker container for a Python app"},
+    {"id": "devops_002", "prompt": "Write a CI/CD pipeline configuration"},
+    {"id": "devops_003", "prompt": "Deploy to AWS Lambda"},
+    {"id": "devops_004", "prompt": "Set up health checks for services"},
+    {"id": "devops_005", "prompt": "Configure environment variables in deployment"}
+  ],
+  "security": [
+    {"id": "sec_001", "prompt": "Validate user input to prevent SQL injection"},
+    {"id": "sec_002", "prompt": "Sanitize HTML to prevent XSS"},
+    {"id": "sec_003", "prompt": "Implement CSRF protection"},
+    {"id": "sec_004", "prompt": "Generate secure random tokens"},
+    {"id": "sec_005", "prompt": "Encrypt sensitive data at rest"}
+  ],
+  "file_handling": [
+    {"id": "file_001", "prompt": "Read and write files in Python"},
+    {"id": "file_002", "prompt": "Process CSV files"},
+    {"id": "file_003", "prompt": "Create ZIP archives"},
+    {"id": "file_004", "prompt": "Parse XML documents"},
+    {"id": "file_005", "prompt": "Handle JSON serialization"}
+  ],
+  "testing": [
+    {"id": "test_001", "prompt": "Write unit tests for a function"},
+    {"id": "test_002", "prompt": "Mock external API calls in tests"},
+    {"id": "test_003", "prompt": "Set up test fixtures"},
+    {"id": "test_004", "prompt": "Measure code coverage"},
+    {"id": "test_005", "prompt": "Write integration tests"}
+  ],
+  "networking": [
+    {"id": "net_001", "prompt": "Make HTTP requests in Python"},
+    {"id": "net_002", "prompt": "Parse URL parameters"},
+    {"id": "net_003", "prompt": "Handle SSL/TLS certificates"},
+    {"id": "net_004", "prompt": "Check if a host is online"},
+    {"id": "net_005", "prompt": "Connect to a remote server via SSH"}
+  ]
+}

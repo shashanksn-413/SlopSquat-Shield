@@ -1,0 +1,64 @@
+{
+  "hallucinated_packages": [
+    {
+      "name": "--no-cache-dir",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "--upgrade",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "-r",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "DOMPurify",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "botocore.exceptions",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "math_operations",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "matplotlib.pyplot",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "sqlalchemy.ext.declarative",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "unittest.mock",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "urllib.parse",
+      "model": "gpt-4o-mini",
+      "available": true
+    },
+    {
+      "name": "werkzeug.utils",
+      "model": "gpt-4o-mini",
+      "available": true
+    }
+  ],
+  "total_hallucinations": 11,
+  "timestamp": "2024",
+  "models_included": [
+    "gpt-4o-mini"
+  ]
+}

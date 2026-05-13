@@ -1,0 +1,255 @@
+{
+  "total_packages_recommended": 55,
+  "total_unique_packages": 43,
+  "hallucinated_packages": [
+    {
+      "name": "--no-cache-dir",
+      "available_for_registration": true
+    },
+    {
+      "name": "--upgrade",
+      "available_for_registration": true
+    },
+    {
+      "name": "-r",
+      "available_for_registration": true
+    },
+    {
+      "name": "DOMPurify",
+      "available_for_registration": true
+    },
+    {
+      "name": "botocore.exceptions",
+      "available_for_registration": true
+    },
+    {
+      "name": "math_operations",
+      "available_for_registration": true
+    },
+    {
+      "name": "matplotlib.pyplot",
+      "available_for_registration": true
+    },
+    {
+      "name": "sqlalchemy.ext.declarative",
+      "available_for_registration": true
+    },
+    {
+      "name": "unittest.mock",
+      "available_for_registration": true
+    },
+    {
+      "name": "urllib.parse",
+      "available_for_registration": true
+    },
+    {
+      "name": "werkzeug.utils",
+      "available_for_registration": true
+    }
+  ],
+  "real_packages": [
+    {
+      "name": "-",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "Flask",
+      "on_pypi": true,
+      "on_npm": false
+    },
+    {
+      "name": "aws-sdk",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "axios",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "bcrypt",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "bleach",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "body-parser",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "boto3",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "csv-parser",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "datetime",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "dompurify",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "express",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "flask",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "flask_jwt_extended",
+      "on_pypi": true,
+      "on_npm": false
+    },
+    {
+      "name": "fs",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "jsonwebtoken",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "jwt",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "mysql",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "node-fetch",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "numpy",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "os",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "pandas",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "papaparse",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "pg",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "psycopg2",
+      "on_pypi": true,
+      "on_npm": false
+    },
+    {
+      "name": "readline",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "requests",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "sequelize",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "sqlalchemy",
+      "on_pypi": true,
+      "on_npm": true
+    },
+    {
+      "name": "sqlalchemy.orm",
+      "on_pypi": true,
+      "on_npm": false
+    },
+    {
+      "name": "sqlite3",
+      "on_pypi": false,
+      "on_npm": true
+    },
+    {
+      "name": "unittest",
+      "on_pypi": true,
+      "on_npm": true
+    }
+  ],
+  "hallucination_rate": 25.58,
+  "by_category": {
+    "web_development": {
+      "hallucinated": 1,
+      "real": 9
+    },
+    "api_integration": {
+      "hallucinated": 1,
+      "real": 4
+    },
+    "authentication": {
+      "hallucinated": 0,
+      "real": 4
+    },
+    "database": {
+      "hallucinated": 1,
+      "real": 6
+    },
+    "data_science": {
+      "hallucinated": 1,
+      "real": 4
+    },
+    "devops": {
+      "hallucinated": 3,
+      "real": 2
+    },
+    "security": {
+      "hallucinated": 1,
+      "real": 5
+    },
+    "file_handling": {
+      "hallucinated": 0,
+      "real": 5
+    },
+    "testing": {
+      "hallucinated": 2,
+      "real": 4
+    },
+    "networking": {
+      "hallucinated": 1,
+      "real": 1
+    }
+  }
+}
